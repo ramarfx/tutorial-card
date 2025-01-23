@@ -5,22 +5,23 @@
 }
 
 body {
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100vh;
     padding: 1rem;
+    background-color: pink;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-    padding: 16px;
-    background-color: lightpink;
     width: 450px;
     max-width: 100%;
-    margin: 0 auto;
+    background-color: lightpink;
     border-radius: 16px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
 .card-header {
@@ -44,23 +45,23 @@ body {
     font-family: 'Jua', sans-serif;
     color: white;
     text-align: center;
-    margin-top: 16px;
     font-size: 32px;
+    margin-top: 16px;
 }
 
 .card-body .description {
+    background-color: white;
     font-family: "Sour Gummy", sans-serif;
     color: #e7a3ad;
-    background-color: white;
     border-radius: 16px;
     padding: 10px;
     margin: 10px 0;
 }
 
 .card-footer {
+    width: 50%;
     margin: 0 auto;
     margin-top: 16px;
-    width: 50%;
 
     display: flex;
     justify-content: space-between;
